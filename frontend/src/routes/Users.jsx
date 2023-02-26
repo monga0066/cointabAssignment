@@ -12,7 +12,7 @@ function Users() {
   const getData = async (filter = "", page = 1) => {
     try {
       const data = await axios.get(
-        `https://com-p407.onrender.com/users?filter=${filter}&page=${page}`
+        `https://frail-headscarf-hen.cyclic.app/users?filter=${filter}&page=${page}`
       );
       console.log(data.data.results);
       setUsers(data.data.results);

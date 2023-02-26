@@ -16,7 +16,7 @@ function Home() {
     } else {
       setIsDataAdding(true);
       try {
-        const data = await axios.get("https://com-p407.onrender.com/users/add");
+        const data = await axios.get("https://frail-headscarf-hen.cyclic.app/users/add");
         console.log(data.data);
         setIsDataAdding(false);
         toast({
@@ -38,7 +38,7 @@ function Home() {
     } else {
       setIsDataDeleting(true);
       try {
-        const res = await axios.delete("https://com-p407.onrender.com/users/delete");
+        const res = await axios.delete("https://frail-headscarf-hen.cyclic.app/users/delete");
         console.log(res);
         setIsDataDeleting(false);
         toast({
